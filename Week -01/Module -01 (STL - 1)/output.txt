@@ -1,3 +1,13 @@
-a b u b a k a r 
-k a z i w a z i d a 
-i s t i a k 
+1 10
+2 20
+4 55
+6 80
+1 10
+
+1 10
+2 20
+6 80
+size of map: 3
+2 20
+4 34
+4 34
