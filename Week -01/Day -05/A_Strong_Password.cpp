@@ -1,3 +1,6 @@
+// https://codeforces.com/problemset/problem/1997/A
+// Problem 11
+
 #include <bits/stdc++.h>
 using namespace std;
 int main()
@@ -9,30 +12,26 @@ int main()
     cin >> t;
     while (t--)
     {
-        string str;
-        cin >> str;
-        int n = str.size();
-        bool track = false;
+        string s;
+        cin >> s;
+        int n = s.length();
+        bool track = true;
         for (int i = 0; i < n - 1; i++)
         {
-            cout << str << endl;
-            if (str[i] == str[i + 1] && !track)
+            cout << s[i];
+            if (s[i] == s[i + 1] && track)
             {
-                if (str[i] != 'z')
-                {
-                    cout << char(str[i] + 1);
-                }
-                else
-                    cout << 'a';
-                track = true;
+                track = false;
+                if (s[i] == 'a')
+                    cout << 'b';
+                else cout << 'a';
             }
         }
-        if (track)
-            cout << str[n - 1] << endl;
-        else if (!track && str[n - 1] != 'z')
-            cout << str[n - 1] << char(str[n - 1] + 1) << endl;
-        else if (!track)
-            cout << str[n - 1] << 'a' << endl;
+        cout << s[n-1];
+        if(track){
+            if(s[n-1]=='a') cout << 'b';
+            else cout << 'a';
+        }cout << endl;
     }
 
     return 0;
