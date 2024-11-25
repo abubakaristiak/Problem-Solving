@@ -10,6 +10,8 @@
 // https://codeforces.com/problemset/problem/1922/A
 // Problem 3;
 
+
+
 #include<bits/stdc++.h>
 #define ll long long
 #define pi pair<ll, ll>
