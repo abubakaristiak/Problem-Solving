@@ -6,6 +6,12 @@
  * * * * File    : A_Entertainment_in_MAC.cpp
  */
 
+
+// https://codeforces.com/profile/abubakar119147
+// Problem  G;
+
+
+
 #include<bits/stdc++.h>
 #define ll long long
 #define pi pair<ll, ll>
@@ -20,6 +26,27 @@ using namespace std;
 int main()
 {
     fast();
+    int t; cin >> t;
+    while (t--)
+    {
+        int n; cin >> n;
+        string s; cin >> s;
+        string rev=s;
+        reverse(rev.begin(), rev.end());
+        if(s<=rev){
+            if(n%2==0){
+                cout << s << endl;
+            }else{
+                cout << s << rev << endl;
+            }
+        }else{
+            if(n%2==1){
+                cout << rev << endl;
+            }else{
+                cout << rev << s << endl;
+            }
+        }
+    }
     
     return 0;
 
