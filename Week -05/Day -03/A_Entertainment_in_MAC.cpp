@@ -8,7 +8,7 @@
 
 
 // https://codeforces.com/profile/abubakar119147
-// Problem  G;
+// Problem G;
 
 
 
