@@ -1,13 +1,3 @@
-/*
- * Bismillahir Rahmanir Raheem
- *
- * * * * Coder   : abubakaristiak
- * * * * Created : 2024-12-08 || 23:25:50
- * * * * File    : _01_bitmasks.cpp
- */
-
-
-
 #include<bits/stdc++.h>
 #define ll long long
 #define pi pair<ll, ll>
@@ -24,16 +14,15 @@ using namespace std;
 int main()
 {
     fast();
-    int n; cin >> n;
-    for(int mask=0; mask<(1 << n); mask++){
-        cout << mask << "-> ";
-        for(int k=0; k<n; k++){
-            if((mask >> k) & 1){
-                cout << 1 << " ";
-            }else cout << 0 << " ";
-        }
-        cout << endl;
+    int t; cin >> t;
+    while (t--)
+    {
+        int n,m; cin >> n >> m;
+        if(m<=n-1){
+            yes;
+        }else no;
     }
+    
     return 0;
 
 
