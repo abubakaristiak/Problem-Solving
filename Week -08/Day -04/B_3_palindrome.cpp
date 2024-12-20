@@ -2,11 +2,14 @@
  * Bismillahir Rahmanir Raheem
  *
  * * * * Coder   : abubakaristiak
- * * * * Created : 2024-12-20 || 22:59:13
+ * * * * Created : 2024-12-21 || 00:16:51
  * * * * File    : B_3_palindrome.cpp
  */
 
 
+
+// https://codeforces.com/problemset/problem/805/B
+// Problem E;
 
 #include<bits/stdc++.h>
 #define ll long long
@@ -24,7 +27,15 @@ using namespace std;
 int main()
 {
     fast();
-    
+    int n; cin >> n;
+    string res="";
+    string p="aabb";
+
+    for(int i=0; i<n; i++){
+        res+=p[i%4];
+    }
+
+    cout << res << endl;
     return 0;
 
 
