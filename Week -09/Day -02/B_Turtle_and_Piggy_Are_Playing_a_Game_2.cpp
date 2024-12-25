@@ -7,6 +7,9 @@
  */
 
 
+// https://codeforces.com/problemset/problem/2003/B
+// Problem A;
+
 
 
 #include<bits/stdc++.h>
@@ -28,15 +31,15 @@ int main()
     int t; cin >> t;
     while (t--)
     {
-        int n; cin >> n;
-        vector<int> v(n);
+        ll n; cin >> n;
+        ll ar[n];
 
         for(int i=1; i<=n; i++){
-            cin >> v[i];
+            cin >> ar[i];
         }
 
-        asort(v);
-        cout << v[n/2+1] << endl;
+        sort(ar+1, ar+n+1);
+        cout << ar[n/2+1] << endl;
     }
     
     return 0;
