@@ -1,13 +1,3 @@
-/*
- * Bismillahir Rahmanir Raheem
- *
- * * * * Coder   : abubakaristiak
- * * * * Created : 2024-12-30 || 21:51:50
- * * * * File    : D_GCD_and_LCM.cpp
- */
-
-
-
 #include<bits/stdc++.h>
 #define ll long long
 #define pi pair<ll, ll>
