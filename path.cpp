@@ -1,5 +1,0 @@
-/*
-complier path: 
-"C:\\MinGW\\include"
-*/
-        
