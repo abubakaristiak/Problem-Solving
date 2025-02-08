@@ -54,3 +54,14 @@ int main()
 
 // Alhamdulillah
 }
+
+
+
+/*
+input:
+5 3
+2 5 1 8 14
+1 4 2
+2 5 6
+2 4 3
+*/
