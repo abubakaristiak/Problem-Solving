@@ -1,3 +1,15 @@
+/*
+ * Bismillahir Rahmanir Raheem
+ *
+ * * * * Coder   : abubakaristiak
+ * * * * Created : 2025-02-17 || 23:31:11
+ * * * * File    : B_Appending_Mex.cpp
+*/
+
+
+// https://codeforces.com/problemset/problem/1054/B
+
+
 #include<bits/stdc++.h>
 #include<ext/pb_ds/assoc_container.hpp>
 #include<ext/pb_ds/tree_policy.hpp>
