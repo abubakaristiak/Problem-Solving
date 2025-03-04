@@ -31,7 +31,7 @@ void solve()
 {
     int n; cin >> n;
     map<int, int> mp;
-    int ar[3];
+    int ar[n+3];
     for(int i=0; i<n; i++){
         cin >> ar[i];
         int val=ar[i]%10;
