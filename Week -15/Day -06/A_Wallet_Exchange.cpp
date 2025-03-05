@@ -29,14 +29,18 @@ template <typename T> using pbds = tree<T, null_type, less<T>, rb_tree_tag, tree
 
 void solve()
 {
-    
+    int a,b; cin >> a >> b;
+    int val=a+b;
+    if(val%2==0){
+        cout << "Bob" << endl;
+    }else cout << "Alice" << endl;
 }
 
 
 int main()
 {
     fast();
-    int t=1;
+    int t; cin >> t;
     while (t--) {
         solve();
     }
