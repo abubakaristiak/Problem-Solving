@@ -33,6 +33,7 @@ void solve()
 {
     ll n,k; cin >> n >> k;
     ll evenCnt=0, ans=k;
+    
     for(ll i=0; i<n; i++){
         ll x; cin >> x;
         if(x%2==0){
