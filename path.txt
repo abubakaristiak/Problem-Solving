@@ -1,4 +1,4 @@
 complier path: 
-            C:\\MinGW\\include
+C:\\MinGW\\include
 
         
